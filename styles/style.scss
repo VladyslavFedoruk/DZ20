@@ -314,11 +314,15 @@
         }
 
         &-data {
-            display: grid;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 166%;
-            letter-spacing: 0.1em;
+            a {
+
+                color: #000000;
+                display: grid;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 166%;
+                letter-spacing: 0.1em;
+            }
 
             @media screen and (max-width:414px) {
                 font-weight: 400;
@@ -353,7 +357,15 @@
 
             >li {
                 padding-right: 23px;
+                cursor: url(cursor.svg) 2 2,
+                    pointer;
+                ;
             }
+        }
+
+        li svg:hover {
+            fill: #565656;
+            stroke: #FFFFFF;
         }
 
 

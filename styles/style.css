@@ -345,7 +345,8 @@ li {
     letter-spacing: 0.05em;
   }
 }
-.footer_left-data {
+.footer_left-data a {
+  color: #000000;
   display: grid;
   font-weight: 400;
   font-size: 16px;
@@ -385,6 +386,11 @@ li {
 }
 .footer_right > ul > li {
   padding-right: 23px;
+  cursor: url(cursor.svg) 2 2, pointer;
+}
+.footer_right li svg:hover {
+  fill: #565656;
+  stroke: #FFFFFF;
 }
 .footer-bottom {
   display: flex;
